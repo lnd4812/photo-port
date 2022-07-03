@@ -150,11 +150,19 @@ li {
   list-style: none;
 }
 
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 28px;
+}
 nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
